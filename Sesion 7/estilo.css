@@ -2,13 +2,13 @@
 
 #banner {
     text-align: center;
-    width: 100%;
+    width: 120%;
 
 }
 
 #letra {
     float: inline-start;
-
+    width: 5px;
 }
 
 #negro{
