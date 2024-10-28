@@ -1,14 +1,16 @@
-* {}
+* {
+    
+}
 
 #banner {
     text-align: center;
-    width: 120%;
-
+    width: 100%;
+    height: auto;
 }
 
 #letra {
     float: inline-start;
-    width: 5px;
+    width: 20%;
 }
 
 #negro{
@@ -33,6 +35,29 @@
     text-align: center;
     
     font-size: x-small;
+}
+.movil{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.coche{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fabrica{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ciudad{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 #sub{
@@ -77,6 +102,13 @@
     width: 100%;
 }
 
+.arena{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+   
+
 #pie {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -88,20 +120,71 @@
 #texto {
 
     font-family: Arial, Helvetica, sans-serif;
-    padding-inline: 490px;
+    padding-inline: 470px;
     line-height: 25px;
 
 }
 
 #fotofinal{
-    text-align: center;
+    margin-left: 475px;
     
+    width: 37%;
+    
+}
+
+#tere{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-left: 470px;
 }
 
 #listafinal ul{
     
     padding-inline: 470px;
     font-size: smaller;
+    
+}
+
+.lineagris{
+    width: 37%;
+    background-color: rgb(157, 157, 157);
+    height: 1px;
+
+}
+.lineapuntos{
+    width: 37%;
+    color: grey;
+    border:1px dashed;
+
+}
+
+#pepe{
+    width: 4px;
+}
+
+hr {
+    width: 37%;
+    color: black;
+  }
+
+#paco{
+    width: 8%;
+    margin-left: 690px;    
+}
+
+
+.contenedor{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 3px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 470px;
+    margin-right: 470px;
+    background-color: rgb(236, 236, 236);
+    font-size: smaller;
+    
     
 }
 
