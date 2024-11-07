@@ -8,6 +8,42 @@
     height: auto;
 }
 
+header{
+    padding: 10px;
+    background-color: rgb(10,61,95);
+    position: fixed;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+a:link{
+    color: aliceblue;
+}
+a:hover{
+    color: white;
+    position: relative;
+    left: 10px;
+    
+}
+
+a:visited{
+    color: rgb(175, 175, 251) ;
+}
+
+ul.cabeza{
+    text-align: center;
+
+}
+
+ul.cabeza li{
+    display: inline;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
 #letra {
     float: inline-start;
     width: 20%;
