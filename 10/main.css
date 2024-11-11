@@ -4,6 +4,10 @@ section{
     
 }
 
+body{
+    margin-bottom: 100px;
+}
+
 .flex-contain{
     display: flex;
     justify-content:center;
@@ -55,7 +59,7 @@ section{
 }
 
 img{
-    width: 20vw;
+    width: 15vw;
     height: auto;
     filter: opacity(30%);
     clip-path: fill-box;
