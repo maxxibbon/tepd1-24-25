@@ -1,0 +1,31 @@
+
+
+
+.t1{
+    font-family: "1";
+}
+
+.t2{
+    font-family: "2";
+}
+
+.t3{
+    font-family: "3";
+}
+
+.t4{
+    font-family: "4";
+}
+
+.t5{
+    font-family: "5";
+}
+
+.t6{
+    font-family: "6";
+}
+
+@font-face {
+    font-family: "1";
+    src: url(fuentes/DaysOne-Regular.ttf);
+}

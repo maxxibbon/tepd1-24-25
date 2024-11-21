@@ -1,0 +1,18 @@
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    justify-content: center;
+
+}
+
+li{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
