@@ -1,6 +1,4 @@
-body{
-    background-color: grey;
-}
+
 
 .alto{
     height: 100vh;
@@ -16,4 +14,12 @@ body{
 
 .sasa{
     height: 15vh;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
