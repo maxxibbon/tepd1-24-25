@@ -1,0 +1,88 @@
+
+
+
+
+.lolo{
+    height: 10vh;
+    background-color: rgb(17, 16, 16);
+    position: fixed;
+}
+
+ul{
+    text-decoration: none;
+    display: inline;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+    padding-top: 10vh;
+    list-style-type: none;
+
+}
+
+ul li a{
+    color: grey;
+    
+}
+
+
+ul li a:hover{
+    color: white;
+}
+
+.xixi{
+    height: 30vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    
+}
+
+.jiji{
+    
+}
+
+.derecha{
+    align-items: center;
+    padding-left: 70vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.foto{
+    padding-bottom: 9vh;
+}
+.ui{
+    width: 15%;
+    
+}
+
+.col-md-4{
+    padding: 5vh;
+    background-color: gainsboro;
+}
+
+.col-md-8{
+    background-color: gainsboro;
+    padding: 5vh;
+    
+
+}
+
+.col-12{
+    padding: 9vh;
+   
+}
+
+.xixi{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+.ado{
+    height: 15vh;
+    color: antiquewhite;
+    
+}
+
