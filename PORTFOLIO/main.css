@@ -1,44 +1,214 @@
-/* Animaciones */
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+    padding-top: 10vh;
+}
+
+
+
+ul li a {
+    text-decoration: none;
+    color: purple;
+    font-size: 16px;
+    padding-top: 10vh;
+}
+
+ul li a:hover {
+    color: rgb(239, 152, 152);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(253, 182, 211, 0.168); 
+    z-index: -1; 
+}
+.nopo {
+    background: linear-gradient(90deg, rgb(239, 152, 152), rgb(255, 209, 220));
+    height: 15vh;
+}
+
+.fas.fa-heart {
+    margin-right: 8px;
+
+}
+
+.susu {
+    height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative; 
+    overflow: hidden;
+    margin-bottom: 50px; /* Asegura espacio debajo del video */
+}
+
+
+.popo {
+    padding: 20px;
+}
+
+
+
+.card {
+    
+    padding: 20px;
+    text-align: center;
+   
+    color: rgb(239, 152, 152);
+    max-width: 90%;
+}
+
+.card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding-left: 13vh;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    
+}
+
+.card p {
+    margin-top: 10px;
+    
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+    
+}
+
+
+.espacio{
+    height: 15vh;
+
+}
+
+h3{
+    padding-bottom: 15vh;
+    justify-content: center;
+    padding-left: 20vh;
+    color: rgb(239, 152, 152);
+    font-size: 10vh;
+}
+
+.tt{
+    font-family:"2" ;
+    font-size: 13vh;
+    color: rgb(239, 152, 152) ;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+.alto{
+    height: 100vh;
+}
+
+.alto img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    display: block; 
+  }
+.popo{
+    height: 30vh;
+}
+
+.sasa{
+    height: 15vh;
+}
+
+.pepe{
+    font-family: "3";
+    color: rgb(239, 152, 152) ;
+    font-size: 15vh;
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+}
+
 @keyframes fadeIn {
-    from {
+    0% {
         opacity: 0;
     }
-    to {
+    100% {
         opacity: 1;
     }
 }
 
-@keyframes slideIn {
-    from {
-        transform: translateY(-20px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
+@font-face {
+    font-family: "1";
+    src: url(fuentes/Batsand.ttf);
 }
 
-/* Clases para animaciones */
-.animate-fade-in {
-    animation: fadeIn 2s ease-in-out;
+@font-face {
+    font-family: "2";
+    src: url(fuentes/Emillea\ Mooneta.ttf);
 }
 
-.animate-slide-in {
-    animation: slideIn 1.5s ease-in-out;
+
+@font-face {
+    font-family: "3";
+    src: url(fuentes/Hunters.otf);
 }
 
-/* Espaciado y estilos generales */
-body {
-    font-family: Arial, sans-serif;
+.yuyu{
+    font-family: "2";
+    color: rgb(239, 152, 152) ;
+    font-size: 4vh;
 }
 
-.header-section {
-    background: linear-gradient(90deg, #FFC107, #FF5722);
-    color: white;
+.roro{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px  rgb(239, 152, 152) ; 
+    transition: box-shadow 0.3s ease; 
+    margin-bottom: 20px; 
 }
 
-blockquote {
-    font-size: 1.2rem;
-    border-left: 5px solid #f8f9fa;
-    padding-left: 1rem;
+.roro:hover {
+    box-shadow: 0px 0px 15px rgba(79, 9, 9, 0.601);
+}
+
+.didi{
+    font-size: smaller;
+    padding-top: 5vh;
+}
+
+.texto{
+    color:rgb(239, 152, 152) ;
+    
+    
+}
+
+.negra{
+    font-weight: bold;
+}
