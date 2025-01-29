@@ -1,0 +1,360 @@
+
+/* MAQUETACIÓN*/
+
+body{
+    background-color: antiquewhite;
+
+}
+
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* Altura fija para las columnas */
+.col-12, .col-md-6, .col-lg-4 {
+    height: 200px; /* Altura fija */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.color{
+    color: palevioletred;
+}
+
+                                         /*PORTADA*/
+
+.roro {
+    display: flex;
+    flex-direction: column;  /* Asegura que los elementos estén en una columna, uno debajo del otro */
+    align-items: flex-start;  /* Alinea los elementos a la izquierda (si lo deseas) */
+    height: 100vh;
+    align-items: center;
+    background-image: url('img/portada.png'); /* Agrega la imagen de fondo */
+    background-size: cover; /* La imagen cubrirá todo el espacio disponible */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Esto asegura que la columna ocupe toda la altura de la pantalla */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(30px); /* Empieza desplazado hacia abajo */
+        opacity: 0; /* Comienza invisible */
+    }
+    100% {
+        transform: translateY(0); /* Termina en su posición original */
+        opacity: 1; /* Se vuelve completamente visible */
+    }
+}
+
+.titulo, .subtitulo {
+    position: relative;
+    z-index: 1;
+    color: white;
+    opacity: 0; /* Inicialmente invisible */
+    animation: slideIn 1s ease-out forwards; /* Aplica la animación */
+}
+
+.titulo {
+    font-size: 20vh;
+    font-weight:100;
+    font-family: "1";
+    opacity: 0; /* Inicialmente invisible */
+    animation: slideIn 1s ease-out forwards; /* 1s de duración, con 'ease-out' para suavizar la animación */
+
+}
+
+
+/* CAMBIAR X LA TIPO DEL PROYECTO*/
+@font-face {
+    font-family: "1";
+    src: url(fuentes/SLICKYBOHEM-Regular.otf);
+}
+
+
+.subtitulo {
+    font-size: 3vh;
+    margin-top: 1vh; 
+    padding-left: 40vh;
+    animation-delay: 1s; /* El subtítulo aparece con un pequeño retraso */
+    
+}
+
+
+.espacios{
+    height: 10vh;
+    background-color: palevioletred;
+}
+
+.luli{
+    height: 80vh;
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.frente {
+    font-size: 2.5rem; /* Tamaño grande para que se vea como título */
+    font-weight: bold; /* Negrita para destacar */
+    color: #333; /* Color oscuro */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Agrega espacio debajo del título */
+    display: block; /* Asegura que ocupe toda la línea */
+}
+
+.texto{
+
+    color: black; /* Texto negro */
+    font-size: 1rem; /* Tamaño del texto llamativo (ajústalo según lo que prefieras) */
+    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center; /* Alineación centrada */
+    line-height: 1.8; /* Separación entre líneas para que sea más legible */
+    display: block; /* Asegura que el span se comporte como un elemento en bloque para que text-align funcione */
+    margin: 0 auto; /* Centra el texto dentro de su contenedor */
+}
+
+.wiwi{
+    height: 30vh;
+    background-color: antiquewhite;
+}
+
+.espacios-fondo{
+    background-color: antiquewhite;
+    height: 10vh;
+}
+
+/* Card container */
+.card {
+    width: 80vh; /* Tamaño del card */
+    margin: 20px auto; /* Centrar el card */
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que todo el contenido respete los bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra inicial */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+    background-color: white; /* Fondo blanco para el cuerpo del card */
+}
+
+/* Imagen dentro del card */
+.card-img {
+    width: 100%; /* La imagen ocupa todo el ancho */
+    height: auto; /* Mantiene la proporción */
+    display: block;
+    border-radius: 15px 15px 0 0; /* Bordes redondeados solo en la parte superior */
+}
+
+/* Cuerpo del card */
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Título y texto del card */
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Animación de sombra al hacer hover */
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.lolo{
+    background-color:antiquewhite;
+    height: 30vh;
+}
+
+
+.sasa {
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Asegura que no sobresalga */
+}
+
+.sasa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hace que la imagen cubra todo el contenedor */
+}
+
+.titulo-paleta {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333; /* Color oscuro para buen contraste */
+    text-transform: uppercase;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    font-family: "Arial", sans-serif;
+}
+
+/* Estilo general para la sección */
+.seccion-cuadrados {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+
+
+/* Contenedor de los cuadrados */
+.contenedor-cuadrados {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Cada cuadrado */
+.cuadrado {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Color del texto */
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+/* Colores específicos */
+.bg-1 {
+    background-color: #b468d2; /* Azul */
+}
+.bg-2 {
+    background-color: #e67d7d; /* Verde */
+}
+.bg-3 {
+    background-color: #c06448; /* Rojo */
+}
+.bg-4 {
+    background-color: #986894; /* Amarillo */
+    color: #212529; /* Texto oscuro para contraste PARA TEXTOS*/
+}
+
+.bg-5 {
+    background-color: #926456; /* Rojo */
+}
+
+.bg-6 {
+    background-color: #711874; /* Rojo */
+}
+
+/* Texto dentro de los cuadrados */
+.texto-cuadro {
+    text-align: center;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+/* Animación al pasar el ratón */
+.cuadrado:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .cuadrado {
+        width: 100px;
+        height: 100px;
+        font-size: 14px;
+    }
+}
+
+
+
+.apli1 img, .apli2 img, .apli3 img, .apli4 img, .apli5 img, .apli6 img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho */
+    height: 100%; /* Deja que la altura sea automática */
+    object-fit: cover; /* Para asegurarse de que las imágenes se ajusten sin distorsionarse */
+}
+
+/* Diferentes alturas para las imágenes */
+.apli1 {
+    height: 250px; /* Puedes ajustar las alturas a tu gusto */
+}
+.apli2 {
+    height: 300px;
+}
+.apli3 {
+    height: 220px;
+}
+.apli4 {
+    height: 350px;
+}
+.apli5 {
+    height: 280px;
+}
+.apli6 {
+    height: 270px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    /* En dispositivos móviles, todas las imágenes tendrán la misma altura */
+    .apli1, .apli2, .apli3, .apli4, .apli5, .apli6 {
+        height: 200px; /* Ajusta la altura según lo que prefieras */
+    }
+}
+
+.dede{
+    height: 150vh;
+    background-color: antiquewhite;
+}
+
+/* IMAGENES */
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las imágenes */
+    
+}
+
+.photo-gallery a {
+    display: block;
+    width: calc(33.33% - 15px); /* Cada imagen ocupa un tercio del contenedor */
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+   
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: 100%; /* No distorsiona la imagen */
+    object-fit: cover; /* O usar contain si prefieres ver la imagen completa */
+}
+.photo-gallery a:hover{
+    transform: scale(1.025);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
